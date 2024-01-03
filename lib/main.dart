@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:getxpract/view/counter_example.dart';
+import 'package:getxpract/view/example_two.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CounterExample(),
+      // home: CounterExample(),
+      home: ExampleTwo(),
     );
   }
 }
