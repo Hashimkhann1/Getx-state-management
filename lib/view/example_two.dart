@@ -34,7 +34,10 @@ class _ExampleTwoState extends State<ExampleTwo> {
             alignment: Alignment.center,
             width: MediaQuery.of(context).size.width * 0.46,
             height: 100,
-            color: Colors.teal.withOpacity(exampleTwoGetx.opicatyG.value),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.teal.withOpacity(exampleTwoGetx.opicatyG.value),
+            ),
             child: const Text("1",style: TextStyle(fontSize: 30),),
           ),),
           const SizedBox(width: 20,),
@@ -42,7 +45,10 @@ class _ExampleTwoState extends State<ExampleTwo> {
             alignment: Alignment.center,
             width: MediaQuery.of(context).size.width * 0.46,
             height: 100,
-            color: Colors.deepPurple.withOpacity(exampleTwoGetx.opicatyG.value),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.deepPurple.withOpacity(exampleTwoGetx.opicatyG.value),
+            ),
             child: const Text("2",style: TextStyle(fontSize: 30),),
           ))
         ],

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:getxpract/view/counter_example.dart';
 import 'package:getxpract/view/example_two.dart';
+import 'package:getxpract/view/favoutite_iitem_example.dart';
+import 'package:getxpract/view/switch_btn_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +21,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: CounterExample(),
-      home: ExampleTwo(),
+      // home: ExampleTwo(),
+      // home: SwitchBtnExample(),
+      home: FavouruteItemExample(),
     );
   }
 }
